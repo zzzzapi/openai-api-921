@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>【2025最新】OpenAI API中转站 | 官方授权ChatGPT/GPT-4/Claude API - 免费试用100元</title>
+    <meta name="description" content="专业OpenAI API中转服务 - 国内直连无需梯子，支持ChatGPT API、GPT-4o、GPT-4 Turbo等全系列模型，低延迟高稳定性，官方授权合作伙伴，注册即送100元免费API额度，7x24小时技术支持！">
+    <meta name="keywords" content="OpenAI API, ChatGPT API, GPT-4 API, API中转站, OpenAI API Key, 国内直连API, API集成方案, 免费API额度, Claude API, GPT-4o API, AI大模型接口">
+    <meta property="og:title" content="【2025年最新】AI大模型API中转站 | 4Z API免费API服务">
+    <meta property="og:description" content="专业AI大模型API中转平台，提供ChatGPT/Claude/Deepseek免费API接口。支持GPT-4o/o1，Claude 3.5，Deepseek等全系列模型，国内直连稳定快速，注册即送免费额度！">
+    <meta property="og:url" content="https://zzzzapi.com/">
+    <meta property="twitter:title" content="【2025年最新】AI大模型API中转站 | 4Z API免费API服务">
+    <meta property="twitter:description" content="专业AI大模型API中转平台，提供ChatGPT/Claude/Deepseek免费API接口。支持GPT-4o/o1，Claude 3.5，Deepseek等全系列模型，国内直连稳定快速，注册即送免费额度！">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charSet="utf-8" />
+    <meta http-equiv='content-language' content='zh-CN'>
+    <link rel="icon" href="/openai.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msvalidate.01" content="425FA97B1C306E30117700826952CD3B" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1420;
+            color: #f0f4f8;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content {
+            text-align: center;
+            max-width: 900px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #00daff, #0072ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
+            letter-spacing: -0.5px;
+            font-weight: 800;
+            position: relative;
+            z-index: 1;
+        }
+        h1::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, rgba(0,198,255,0), rgba(0,114,255,0.5), rgba(0,198,255,0));
+            bottom: -10px;
+            left: 0;
+            z-index: -1;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+        .button {
+            display: inline-block;
+            padding: 16px 32px;
+            background: linear-gradient(270deg, #0072ff, #00c6ff, #0072ff);
+            background-size: 200% auto;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 24px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 15px rgba(0, 114, 255, 0.3);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            animation: gradient-shift 3s ease infinite;
+        }
+        .button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 12px 20px rgba(0, 198, 255, 0.4);
+        }
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
+        }
+        .button:hover::before {
+            left: 100%;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #161b22 0%, #0a1420 70%);
+            z-index: -1;
+            opacity: 1;
+        }
+        .background::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="none" width="100%" height="100%"/><rect fill="%230072ff" opacity="0.05" width="1" height="1" x="25" y="25"/></svg>');
+            opacity: 0.3;
+        }
+        .arrow-down {
+            position: absolute;
+            bottom: 20px;
+            cursor: pointer;
+            font-size: 32px;
+            color: #0072ff;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* New Section Styles */
+        .markdown-content {
+            padding: 50px;
+            background-color: #111c2b;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            margin: 60px auto;
+            max-width: 900px;
+            border: 1px solid #30363d;
+            position: relative;
+            z-index: 1;
+        }
+        .markdown-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><rect fill="none" width="20" height="20"/><circle fill="%23ffffff" opacity="0.03" r="1" cx="10" cy="10"/></svg>');
+            border-radius: 20px;
+            z-index: -1;
+        }
+        .markdown-content h2 {
+            font-size: 38px;
+            margin-top: 40px;
+            color: #58a6ff;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 15px;
+            position: relative;
+        }
+        .markdown-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, #0072ff, transparent);
+        }
+        .markdown-content p, .markdown-content li {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #e6edf3;
+        }
+        .markdown-content table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 30px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .markdown-content th, .markdown-content td {
+            border: 1px solid #30363d;
+            padding: 15px;
+            text-align: left;
+            transition: background 0.3s ease;
+        }
+        .markdown-content th {
+            background-color: #1a2d4e;
+            color: #78c6ff;
+            font-weight: 600;
+            position: relative;
+        }
+        .markdown-content th::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #0072ff, transparent);
+        }
+        .markdown-content tr:hover td {
+            background-color: #1c2b3f;
+            color: #ffffff;
+        }
+        .markdown-content tr:nth-child(even) {
+            background-color: #192234;
+        }
+
+        /* API Highlight Style */
+        .api-highlight {
+            font-weight: bold;
+            background: linear-gradient(90deg, rgba(0, 114, 255, 0.3), rgba(0, 198, 255, 0.3));
+            color: #ffffff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            padding: 4px 10px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 114, 255, 0.3);
+            display: inline-block;
+            transform: scale(1.05);
+            border-left: 3px solid #0072ff;
+            transition: all 0.3s ease;
+        }
+        
+        /* Link styling for api-highlight */
+        a.api-highlight {
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+        
+        a.api-highlight:hover {
+            background: linear-gradient(90deg, rgba(0, 114, 255, 0.4), rgba(0, 198, 255, 0.4));
+            box-shadow: 0 4px 8px rgba(0, 114, 255, 0.5);
+            transform: scale(1.1);
+        }
+
+        /* Section Styles */
+        .section-container {
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        .section-container:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 114, 255, 0.2);
+        }
+        
+        .section-1 {
+            background: linear-gradient(135deg, #0d2137, #1a3a5f);
+        }
+        
+        .section-2 {
+            background: linear-gradient(135deg, #1a2634, #2c3e50);
+        }
+        
+        .section-3 {
+            background: linear-gradient(135deg, #292145, #3d2b63);
+        }
+        
+        .section-4 {
+            background: linear-gradient(135deg, #3a2618, #5a3c20);
+        }
+        
+        .section-5 {
+            background: linear-gradient(135deg, #2d3748, #1e293b);
+        }
+        
+        .section-6 {
+            background: linear-gradient(135deg, #2a2730, #403a57);
+        }
+        
+        /* Code block styling */
+        pre {
+            background-color: #0d1117;
+            border-radius: 10px;
+            padding: 20px;
+            overflow-x: auto;
+            border: 1px solid #30363d;
+            margin: 25px 0;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+        
+        code {
+            font-family: 'Consolas', 'Monaco', monospace;
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+        
+        /* Code highlighter */
+        pre code .keyword { color: #ff79c6; }
+        pre code .string { color: #f1fa8c; }
+        pre code .comment { color: #6272a4; }
+        pre code .function { color: #50fa7b; }
+        
+        /* Badge styling */
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 12px;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #0072ff, #00c6ff);
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 114, 255, 0.3);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 198, 255, 0.4);
+        }
+        
+        /* Feature list */
+        .feature-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            margin-right: 10px;
+            color: #0072ff;
+            font-weight: bold;
+        }
+        
+        /* Pulsing animation for call-to-action elements */
+        .pulse {
+            animation: pulse-animation 2s infinite;
+        }
+        
+        @keyframes pulse-animation {
+            0% {
+                box-shadow: 0 0 0 0 rgba(0, 114, 255, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(0, 114, 255, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 114, 255, 0);
+            }
+        }
+
+        /* Mobile Styles */
+        @media screen and (max-width: 767px) {
+            .container {
+                min-height: auto;
+                padding-top: 80px;
+                padding-bottom: 50px;
+            }
+            h1 {
+                font-size: 36px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .button {
+                font-size: 18px;
+                padding: 12px 24px;
+            }
+            .markdown-content {
+                padding: 25px;
+                margin: 20px 15px;
+                border-radius: 15px;
+            }
+            .markdown-content h2 {
+                font-size: 28px;
+            }
+            .markdown-content p, .markdown-content li {
+                font-size: 16px;
+            }
+            .markdown-content table {
+                display: block;
+                overflow-x: auto;
+                width: 100%;
+            }
+            .markdown-content th, .markdown-content td {
+                white-space: nowrap;
+                padding: 10px;
+            }
+            .arrow-down {
+                display: none;
+            }
+            .section-container {
+                padding: 20px;
+                margin: 25px 0;
+            }
+            .badge {
+                font-size: 14px;
+                padding: 4px 8px;
+                margin-right: 6px;
+                margin-bottom: 8px;
+            }
+        }
+
+        /* Section visibility */
+        .section-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* 添加动态色彩效果 */
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "OpenAI API中转站 - 4Z API",
+      "url": "https://zzzzapi.com/",
+      "description": "专业OpenAI API中转服务，提供ChatGPT API、GPT-4 API、Claude API等官方接口直连，无需科学上网，注册送100元免费额度。",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zzzzapi.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OpenAI API中转服务",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "全平台",
+      "softwareVersion": "2025",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "1258"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY",
+        "description": "注册即送100元免费API调用额度"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "什么是OpenAI API中转服务？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OpenAI API中转服务是面向中国开发者和企业的专业解决方案，让您无需科学上网即可稳定、快速地调用ChatGPT、GPT-4等OpenAI所有模型API。我们提供比官方更低的价格、更稳定的服务和完整的技术支持。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "使用OpenAI API中转服务有哪些优势？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "主要优势包括：1)国内直连无需代理；2)平均延迟低至40ms；3)官方价格低至6折；4)支持所有OpenAI模型；5)企业级稳定性保障；6)注册即送100元免费额度；7)7×24专业技术支持；8)兼容官方API参数，接入简单。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如何开始使用OpenAI API中转服务？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "只需简单五步：1)在官网注册账号；2)获取API密钥；3)充值或使用赠送额度；4)按照文档修改API请求地址；5)开始调用API。整个过程不超过5分钟，支持Python、Node.js、Java等各种编程语言。"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h1>专业OpenAI API中转服务 - 国内直连官方接口 | 注册送100元</h1>
+            <h2 style="color:#78c6ff;font-size:28px;margin-bottom:20px;">高性能 · 低延迟 · 全模型支持 | ChatGPT和GPT-4 API专业解决方案</h2>
+            <div style="margin:30px 0;">
+                <span class="badge">国内直连秒响应</span>
+                <span class="badge">官方授权合作伙伴</span>
+                <span class="badge">API价格低至6折</span>
+                <span class="badge">GPT-4o全面支持</span>
+                <span class="badge">100元免费额度</span>
+                <span class="badge">企业级技术支持</span>
+            </div>
+            <a href="https://zzzzapi.com/" target="_self" class="button pulse">免费注册获取OpenAI API Key</a>
+            <h3 style="margin-top:30px;">API服务状态：<strong style="color:#4ADE80;">所有OpenAI API模型稳定运行中</strong> | 更新：<strong id="curdate"></strong></h3>
+        </div>
+        <div class="arrow-down" onclick="scrollToContent()">⬇️ 查看OpenAI API中转详情</div>
+    </div>
+
+    <!-- Second Screen Content -->
+    <section class="markdown-content" id="more-content">
+        <blockquote style="border-left:4px solid #0072ff;padding-left:15px;margin:20px 0;background:#192234;padding:20px;border-radius:8px;">
+            <p><strong>【2025官方指南】</strong>OpenAI API中转完整攻略 — 让<strong>ChatGPT API、GPT-4 API</strong>在国内无障碍使用，为AI开发者提供最佳解决方案！</p>
+        </blockquote>
+        
+        <p>作为专业<a href="https://zzzzapi.com/" target="_blank" class="api-highlight">OpenAI API中转服务</a>提供商，我们完美解决了国内开发者使用ChatGPT API、GPT-4 API等服务的所有难题。无需科学上网，无需海外信用卡，即可稳定高效地调用OpenAI各大AI模型API，让您的AI开发事半功倍！</p>
+
+        <div class="section-container section-1">
+            <h2>OpenAI API中转服务核心优势</h2>
+            <p><strong>作为OpenAI官方认可的API服务商</strong>，我们为中国开发者和企业提供稳定可靠的API接入解决方案：</p>
+            <ul class="feature-list">
+                <li><strong>国内直连OpenAI API</strong>：平均延迟低至40ms，比直连提升12倍速度，无需任何代理</li>
+                <li><strong>企业级高可用架构</strong>：多区域节点部署，服务可用性99.99%，支持并发万级API调用</li>
+                <li><strong>最新模型全覆盖</strong>：支持GPT-3.5、GPT-4、GPT-4o、GPT-4 Turbo等所有OpenAI模型</li>
+                <li><strong>多模型一站式接入</strong>：同时支持Claude、Anthropic、Gemini等主流大模型API</li>
+                <li><strong>成本显著降低</strong>：API调用价格低至官方6折，支持人民币付款，无需海外卡</li>
+                <li><strong>开发友好体验</strong>：提供详细中文文档，兼容官方API参数，即插即用</li>
+            </ul>
+        </div>
+
+        <div class="section-container section-2">
+            <h2>OpenAI API模型能力对比表（2025年最新）</h2>
+            <table>
+                <tr>
+                    <th>OpenAI模型</th>
+                    <th>应用场景</th>
+                    <th>价格</th>
+                    <th>性能评分</th>
+                </tr>
+                <tr>
+                    <td><strong>GPT-4o</strong></td>
+                    <td>多模态应用、高级AI助手、复杂任务处理</td>
+                    <td>中转价 ¥0.45/1K tokens</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td><strong>GPT-4 Turbo</strong></td>
+                    <td>企业级应用、专业内容创作、知识密集型任务</td>
+                    <td>中转价 ¥0.36/1K tokens</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td><strong>GPT-3.5-Turbo</strong></td>
+                    <td>日常对话、内容生成、基础AI应用</td>
+                    <td>中转价 ¥0.012/1K tokens</td>
+                    <td>⭐⭐⭐⭐☆</td>
+                </tr>
+                <tr>
+                    <td><strong>OpenAI DALL-E 3</strong></td>
+                    <td>AI图像生成、创意设计、营销内容</td>
+                    <td>中转价 ¥0.15/图</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+            <p style="margin-top:20px;"><strong>最新资讯：</strong> OpenAI刚刚发布的GPT-4o模型已在我们的API中转平台全面支持，提供国内最快速度和最优惠价格。</p>
+        </div>
+
+        <div class="section-container section-4">
+            <h2>OpenAI API中转接入示例（5分钟完成）</h2>
+            
+            <h3>Python调用示例（支持所有OpenAI模型）</h3>
+            <pre><code>
+# OpenAI API - Python快速调用示例
+import requests
+
+API_KEY = "your_api_key"  # 您在平台获取的API密钥 
+API_URL = "https://api.zzzzapi.com/v1/chat/completions"  # OpenAI API中转地址
+
+headers = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
+
+data = {
+    "model": "gpt-4o",  # 支持OpenAI全系列模型：gpt-3.5-turbo, gpt-4, gpt-4o等
+    "messages": [
+        {"role": "system", "content": "你是一个专业的AI助手"},
+        {"role": "user", "content": "请帮我写一个Python爬虫程序"}
+    ],
+    "temperature": 0.7,
+    "max_tokens": 2000
+}
+
+response = requests.post(API_URL, headers=headers, json=data)
+print(response.json()["choices"][0]["message"]["content"])
+            </code></pre>
+        </div>
+
+        <div class="section-container section-6" style="margin-bottom:50px;">
+            <h2>为何选择OpenAI API作为您的AI开发首选？</h2>
+            <p>最新数据显示，<strong>OpenAI API</strong>的开发者搜索量高达18.5万/月，远超其他AI API服务。这是因为：</p>
+            <ul>
+                <li>OpenAI持续推出新模型，如GPT-4o、GPT-4o-mini等，不断刷新AI性能上限</li>
+                <li>完整的API生态系统，支持文本生成、图像创建、语音转换等多模态能力</li>
+                <li>广泛的开发者社区和丰富的应用案例，降低学习和开发成本</li>
+                <li>通过我们的<a href="https://zzzzapi.com/" target="_blank" class="api-highlight">API中转服务</a>，完全解决了国内访问和使用的技术障碍</li>
+            </ul>
+
+            <h2>企业级API支持与SLA保障</h2>
+            <p>我们为企业用户提供:</p>
+            <ul>
+                <li>专属API通道，确保高峰期稳定响应</li>
+                <li>7×24小时中文技术支持，微信群实时响应</li>
+                <li>API定制开发服务，满足特殊业务需求</li>
+                <li>月度结算选项，灵活的计费方案</li>
+            </ul>
+
+            <div style="text-align:center;margin-top:40px;padding:20px;background:linear-gradient(90deg,#0d2137,#1a3a5f);border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+                <h2 style="color:#58a6ff;margin-bottom:20px;">开启您的OpenAI API开发之旅</h2>
+                <p>现在注册即可获得<strong>100元免费API调用额度</strong>，无需信用卡，5分钟内完成API集成！</p>
+                <a href="https://zzzzapi.com/" class="button pulse" style="margin-top:20px;">立即获取API Key</a>
+                <p style="margin-top:20px;font-size:14px;color:#8b949e;">最后更新时间: <strong id="update-time">2025年3月26日</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    </section>
+
+  <script>
+        const colors = [
+            ['#ff0080', '#7928ca'], 
+            ['#ff4d4d', '#f9cb28'], 
+            ['#7928ca', '#4c88e8'], 
+            ['#4c88e8', '#4FE2B1'], 
+            ['#ff0080', '#ff7f00']  
+        ];
+        const randomIndex = Math.floor(Math.random() * colors.length);
+        const [color1, color2] = colors[randomIndex];
+        document.documentElement.style.setProperty('--color-1', color1);
+        document.documentElement.style.setProperty('--color-2', color2);
+
+        function scrollToContent() {
+            document.getElementById('more-content').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function formatDate(date) {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}/${month}/${day}`;
+        }
+        
+        document.getElementById('curdate').textContent = formatDate(new Date());
+        
+        // 添加滚动显示动画
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section-container');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('section-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+            
+            // 高亮OpenAI API关键词
+            highlightKeywords();
+        });
+        
+        // 关键词高亮函数
+        function highlightKeywords() {
+            const content = document.querySelectorAll('.markdown-content p, .markdown-content li');
+            const keywords = [
+                'OpenAI API', 'ChatGPT API', 'GPT-4 API', 'API中转', 'API接口', 'API服务',
+                'GPT-4o', 'GPT-4 Turbo', 'GPT-3.5-Turbo'
+            ];
+            
+            content.forEach(element => {
+                let html = element.innerHTML;
+                keywords.forEach(keyword => {
+                    // 只替换第一次出现的关键词，避免过度高亮
+                    const regex = new RegExp(`(?<!<[^>]*)(${keyword})(?![^<]*>)`, 'i');
+                    if (regex.test(html) && !html.includes(`class="api-highlight">${keyword}`)) {
+                        html = html.replace(regex, `<span class="api-highlight">$1</span>`);
+                    }
+                });
+                element.innerHTML = html;
+            });
+        }
+    </script>
+</body>
+</html>
